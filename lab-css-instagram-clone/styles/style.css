@@ -1,0 +1,106 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  background: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+  height: 100%;
+  
+
+}
+
+.hero {
+  display: flex;
+  margin-top: 7%;
+  margin-left: 20%;
+  
+}
+
+.articulo {
+  background: url("../images/frame.png");
+  padding: 15px 20px;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  
+}
+
+
+.resto {
+  
+  background-repeat: no-repeat;
+  display: block;
+  margin-right: 20%;
+  margin-left: 10%;
+  
+  
+}
+
+.articulo h2 {
+  color: #06365f;
+}
+
+.encabezado {
+  display: flex;
+
+}
+
+.android {
+  margin-left: 3%;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-menu a {
+  color:#1c5380 ;
+}
+
+.login {
+  text-decoration: none;
+  color: white;
+  background-color:#1c5380;
+  width: 73px;
+  height: 31px;
+  border-color: blue;
+  border: 1px #06365f;
+  box-shadow: 3px;
+  margin-left: 87px;
+  margin-top: 30px;
+  background-size: contain;
+  
+
+}
+
+.footer-menu li {
+    margin: 50px 15px;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+.footer-menu span {
+  color: grey;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.footer-menu li {
+  color: #1c5380
+}
